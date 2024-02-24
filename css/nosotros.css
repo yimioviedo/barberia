@@ -1,0 +1,151 @@
+/* Estilos generales */
+* ::after,
+*::before
+*{    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: auto;
+    color: #333;
+    max-width: 2000px;
+}
+
+/* Estilo del logo */
+.logo {
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    bottom: 0;
+    right: 0;   
+}
+
+img {
+    max-width: 100%;
+}
+
+/* Estilos para la lista de navegación en el encabezado, 
+inicio, productos, nuestros servicios... */
+
+header {
+    background-color: #333333;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    }
+
+nav ul {
+    list-style-type: none;  
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 100px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav a:hover {
+    color: cornflowerblue;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+    margin: 0 80px;
+}
+
+/* Estilos seccion de inicio "Productos..."*/
+
+.nosotros {
+    text-align: center;
+    padding: 0;
+    background: #f8f8f8;
+}
+
+h1 {
+    font-size: 50px;
+    color: white;
+    background-image: url("https://i.pinimg.com/564x/67/77/b0/6777b058cb180a595d82949aa369d535.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 80px;
+}
+
+.section {
+    margin-top: 20px;
+    text-align: justify;    
+}
+
+h2 {
+    font-size: 2em;
+    color: #333;
+    text-align: center;
+}
+
+p {
+    font-size: 1.2em;
+    color: #666;
+    margin-top: 20px;
+    margin-right: 50px;
+    margin-left: 50px;
+    
+    
+}
+
+.section-historia img {
+    width: 800px;
+    border-radius: 25px;
+    margin-top: 20px;
+    margin: 20px auto;
+    display: block;
+    cursor: pointer;
+}
+
+.section-somos img {
+    width: 800px;
+    border-radius: 25px;
+    margin-top: 20px;
+    margin: 20px auto;
+    display: block;
+    cursor: pointer;
+}
+
+/* Estilos para el pie de pagina*/
+
+footer p {
+    text-align: center;
+    font-size: 15px;
+    margin: 0;
+    color: black;
+}
+
+.autor {
+    text-align: center;
+    font-size: 15px;
+    margin: 0;
+    color: black;
+    position: fixed;
+    bottom: 0;   
+    
+    }
+/* Estilos logos de las redes sociales*/
+    .redes-sociales {
+        text-align: center;
+    }    
+.redes-sociales img {
+    width: 50px;
+    margin: 0 10px;
+}

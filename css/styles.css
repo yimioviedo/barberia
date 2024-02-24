@@ -1,0 +1,95 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("https://i.postimg.cc/vZzh0V3P/fondo.jpg");
+    background-size: cover;
+    
+}
+/* Estilo del logo */
+.logo {
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    bottom: 0;
+    right: 0;       
+}
+
+/* Estilos para la lista de navegación en el encabezado, 
+inicio, productos, nuestros servicios... */
+
+header {
+    background-color: #333333;
+    color: #fff;
+    padding: 30px 0;
+    text-align: center;
+    }
+
+nav ul {
+    list-style-type: none;  
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 100px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav a:hover {
+    color: cornflowerblue;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+    margin: 0 80px;
+}
+
+/* Estilos seccion de inicio "Bienvenido a la barberia..."*/
+h1 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 50px 0;
+    font-size: 40px;
+}
+
+/* Estilos para el pie de pagina*/
+
+footer p {
+    text-align: center;
+    font-size: 15px;
+    margin: 0;
+    color: white;
+}
+
+/* Estilos logos de las redes sociales*/
+    .redes-sociales {
+        text-align: center;
+    }    
+.redes-sociales img {
+    width: 30px;
+    margin: 0 10px;
+}
+
+.autor {
+    font-size: 15px;
+    margin: 0;
+    color: white;
+    position: fixed;
+    bottom: 0; 
+    left: 0;       
+}
+
+
+
+
+
+

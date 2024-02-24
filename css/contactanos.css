@@ -1,0 +1,147 @@
+/* Estilos generales */
+* ::after,
+*::before
+*{    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: auto;
+    color: #333;
+    max-width: 2000px;
+}
+
+/* Estilo del logo */
+.logo {
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    bottom: 0;
+    right: 0;   
+}
+
+img {
+    max-width: 100%;
+}
+
+/* Estilos para la lista de navegación en el encabezado, 
+inicio, productos, nuestros servicios... */
+
+header {
+    background-color: #333333;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    }
+
+nav ul {
+    list-style-type: none;  
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 100px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav a:hover {
+    color: cornflowerblue;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+    margin: 0 80px;
+}
+
+/* Estilos seccion de inicio "Productos..."*/
+
+.contact-section {
+    text-align: center;
+    padding: 50px;
+    background-color: #f8f8f8;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+    padding: 50px 0;
+    font-size: 50px;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    color: #333;
+}
+
+input,
+textarea {
+width: 100%;
+padding: 10px;
+margin-bottom: 20px;
+border: 1px solid #ccc;
+border-radius: 5px;
+box-sizing: border-box;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+/* Estilos para el pie de pagina*/
+
+footer p {
+    text-align: center;
+    font-size: 15px;
+    margin: 0;
+    color: black;
+}
+
+.autor {
+    text-align: center;
+    font-size: 15px;
+    margin: 0;
+    color: black;
+    position: fixed;
+    bottom: 0;   
+    left: 0;  
+    
+    }
+/* Estilos logos de las redes sociales*/
+    .redes-sociales {
+        text-align: center;
+    }    
+.redes-sociales img {
+    width: 30px;
+    margin: 0 10px;
+}

@@ -1,0 +1,135 @@
+/* Estilos generales */
+* ::after,
+*::before
+*{    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: auto;
+    color: #333;
+    max-width: 2000px;
+    
+}
+
+/* Estilo del logo */
+.logo {
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    bottom: 0;
+    right: 0;   
+}
+
+/* Estilos para la lista de navegación en el encabezado, 
+inicio, productos, nuestros servicios... */
+
+header {
+    background-color: #333333;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    }
+
+nav ul {
+    list-style-type: none;  
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 100px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav a:hover {
+    color: cornflowerblue;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+    margin: 0 80px;
+}
+
+/* Estilos seccion de inicio "Productos..."*/
+h1 {
+    color: black;
+    text-align: center;
+    padding: 0;
+    font-size: 50px;
+    margin-right: 10px
+}
+
+
+/* Estoy buscando dejar el logo2 pegado al  h1..."*/
+.container {
+    text-align: center;
+    padding: 0;
+    margin-right: 10px
+       
+}
+.container img {
+    width: 250px;
+    
+}
+
+.button {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  button {
+    background-color: #45a049;
+    color: white;    
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;    
+    
+  }
+  
+  button:hover {
+    background-color: #128C7E;
+  }
+    
+/* Estilos para el pie de pagina*/
+
+footer p {
+    text-align: center;
+    font-size: 15px;
+    margin: 0;
+    color: black;
+}
+
+.autor {
+    text-align: center;
+    font-size: 15px;
+    margin: 0;
+    color: black;
+    position: fixed;
+    bottom: 0;   
+    
+    }
+/* Estilos logos de las redes sociales*/
+    .redes-sociales {
+        text-align: center;
+        
+    }    
+.redes-sociales img {
+    width: 30px;
+    margin: 0 10px;
+}

@@ -1,0 +1,177 @@
+/* Estilos generales */
+* ::after,
+*::before
+*{    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: auto;
+    color: #333;
+    max-width: 2000px;
+}
+
+/* Estilo del logo */
+.logo {
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    bottom: 0;
+    right: 0;   
+}
+
+img {
+    max-width: 100%;
+}
+
+/* Estilos para la lista de navegación en el encabezado, 
+inicio, productos, nuestros servicios... */
+
+header {
+    background-color: #333333;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    }
+
+nav ul {
+    list-style-type: none;  
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 100px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav a:hover {
+    color: cornflowerblue;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+    margin: 0 80px;
+}
+
+/* Estilos seccion de inicio "Productos..."*/
+h1 {
+    color: black;
+    text-align: center;
+    padding: 50px 0;
+    font-size: 50px;
+}
+
+/* main */
+
+.slider-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.slider {
+    border-radius: 10px;
+    display: flex;
+    animation: deslizar 50s linear infinite alternate;
+}
+.slider:hover{
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.20);
+}
+
+.slider img {
+    width: 300%;
+    height: 300px;
+    border-radius: 10px 10px 0 0;
+    transition: all .5s;
+}
+
+.slider figure {
+    overflow: hidden;
+}
+
+.slider:hover img {
+    transform: scale(1.2);
+}
+
+@keyframes deslizar {
+    0% {
+        transform: translateX(0%);
+      }
+      25% {
+        transform: translateX(-100%);
+      }
+      50% {
+        transform: translateX(0%);
+      }
+      75% {
+        transform: translateX(100%);
+      }
+      100% {
+        transform: translateX(0%);
+    }
+ }
+
+
+.info-servicio {
+    padding: 15px 30px;
+    line-height: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.price {
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.info-product button {
+    border: none;
+    background: none;
+    background-color: #000;
+    color: #fff;
+    padding: 15px 10px;
+    cursor: pointer
+}
+
+
+/* Estilos para el pie de pagina*/
+
+footer p {
+    text-align: center;
+    font-size: 15px;
+    margin: 0;
+    color: black;
+}
+
+.autor {
+    text-align: center;
+    font-size: 15px;
+    margin: 0;
+    color: black;
+    position: fixed;
+    bottom: 0;   
+    
+    }
+/* Estilos logos de las redes sociales*/
+    .redes-sociales {
+        text-align: center;
+    }    
+.redes-sociales img {
+    width: 30px;
+    margin: 0 10px;
+}
